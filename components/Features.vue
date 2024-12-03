@@ -36,11 +36,11 @@
           </div>
           <div class="relative z-10 py-[2rem] mr-14">
             <img
-              src="~/assets/images/feature1.png"
+              src="~/assets/images/bill1.png"
               class="h-64 w-[900px] rounded-md shadow-md"
             />
             <img
-              src="~/assets/images/feature2.png"
+              src="~/assets/images/bill2.png"
               class="absolute w-48 h-44 top-[6rem] left-[92px] shadow-md rounded-md"
             />
           </div>
@@ -78,7 +78,7 @@
           </div>
           <div class="py-[72px]">
             <img
-              src="~/assets/images/feature3.png"
+              src="~/assets/images/bill3.png"
               class="h-44 w-48 rounded-md shadow-md"
             />
           </div>
@@ -113,9 +113,9 @@
             </div>
           </div>
           <div class="relative z-10 py-[2rem]">
-            <img src="~/assets/images/expenses.png" class="h-44" />
+            <img src="~/assets/images/bill4.png" class="h-44" />
             <img
-              src="~/assets/images/expenses.png"
+              src="~/assets/images/bill5.png"
               class="absolute h-44 top-[14rem] right-[2rem]"
             />
           </div>
@@ -148,10 +148,10 @@
           </div>
           <div class="relative">
             <img
-              src="~/assets/images/accounting1.png"
+              src="~/assets/images/bill6.png"
               class="absolute inset-0 left-[8rem] top-6 w-44 shadow-md"
             />
-            <img src="~/assets/images/accounting2.png" class="w-64 pt-14" />
+            <img src="~/assets/images/bill6.png" class="w-64 pt-14" />
           </div>
         </div>
         <div
@@ -224,11 +224,11 @@
             </div>
             <div class="relative z-10 py-[2rem] px-6">
               <img
-                src="~/assets/images/featuretablet1.png"
+                src="~/assets/images/bill1.png"
                 class="w-48 h-48 rounded-md shadow-lg"
               />
               <img
-                src="~/assets/images/featuretablet2.png"
+                src="~/assets/images/bill2.png"
                 class="absolute top-[7rem] left-[7rem] w-[8rem] shadow-lg rounded-md"
               />
             </div>
@@ -270,7 +270,7 @@
             </div>
             <div class="pt-12">
               <img
-                src="~/assets/images/feature3.png"
+                src="~/assets/images/bill3.png"
                 class="sm:h-64 h-44 sm:w-64 rounded-md shadow-md sm:mx-0 mx-auto"
               />
             </div>

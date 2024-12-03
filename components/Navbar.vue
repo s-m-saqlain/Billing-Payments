@@ -6,8 +6,8 @@
       class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-1 px-6"
     >
       <div class="flex justify-start items-center gap-2">
-        <p class="text-bold text-white font-bold text-2xl">AlAzam</p>
-        <p class="text-bold text-white font-bold text-xl">Traders</p>
+        <p class="text-bold text-white font-bold text-2xl">Billing</p>
+        <p class="text-bold text-white font-bold text-xl">Payments</p>
       </div>
       <div class="lg:block hidden" id="navbar-default">
         <ul
@@ -426,13 +426,6 @@
                       class="text-blue-600 font-thin text-[15px] mt-1 cursor-pointer"
                     >
                       Contact Us
-                    </p>
-                    <hr class="my-4" />
-                    <p>Contact Sale</p>
-                    <p
-                      class="text-blue-600 font-thin text-[15px] mt-1 cursor-pointer"
-                    >
-                      1-888-674-3175
                     </p>
                   </div>
                 </div>

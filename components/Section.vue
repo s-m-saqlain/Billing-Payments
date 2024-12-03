@@ -5,7 +5,7 @@
         <p
           class="lg:text-7xl sm:text-7xl text-5xl font-medium text-white lg:px-12 px-6"
         >
-          Welcome to Alazam Traders Dashboard
+          Welcome to Billing Payments Dashboard
         </p>
         <div
           class="sm:flex justify-start items-center gap-6 lg:px-12 px-6 pt-12"
@@ -23,22 +23,22 @@
       </div>
       <div>
         <img
-          src="~/assets/images/screen.png"
+          src="~/assets/images/bills.png"
           class="lg:block hidden border-[12px] border-black rounded-md w-[83rem] h-[22rem]"
         />
         <img
-          src="~/assets/images/screen.png"
+          src="~/assets/images/bills.png"
           class="lg:hidden sm:block hidden mt-6 border-[12px] border-black rounded-md h-[23rem] mx-auto"
         />
         <img
-          src="~/assets/images/screen.png"
+          src="~/assets/images/bills.png"
           class="sm:hidden mt-6 border-[12px] border-black rounded-md h-[13rem] mx-auto"
         />
       </div>
     </div>
 
     <p class="text-white lg:px-12 sm:px-6 px-2 font-bold sm:text-2xl text-xl">
-      Sales Revenue Over Time
+      Billing Revenue Over Time
     </p>
     <div class="ticker-container overflow-hidden whitespace-nowrap">
       <div class="ticker-content flex items-center gap-14">
