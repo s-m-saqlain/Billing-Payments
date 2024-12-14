@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="fixed z-30 top-0 right-0 left-0 bg-blue-900 border-gray-200 dark:bg-gray-900"
+    class="fixed z-30 top-0 right-0 left-0 bg-blue-900 border-gray-200 dark:bg-gray-900 2xl:pt-0 xl:pt-0 lg:pt-4 sm:pt-2"
   >
     <div
       class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-1 px-6"
@@ -9,7 +9,7 @@
         <p class="text-bold text-white font-bold text-2xl">Billing</p>
         <p class="text-bold text-white font-bold text-xl">Payments</p>
       </div>
-      <div class="lg:block hidden" id="navbar-default">
+      <div class="2xl:block xl:block lg:hidden hidden" id="navbar-default">
         <ul
           class="font-medium flex flex-col p-4 mt-4 lg:flex-row lg:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-blue-900 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
         >
@@ -434,7 +434,7 @@
           </div>
         </ul>
       </div>
-      <div class="lg:block hidden">
+      <div class="2xl:block xl:block lg:hidden hidden">
         <div class="flex justify-center items-center gap-12 w-96">
           <p
             class="text-white font-semibold cursor-pointer hover:bg-white hover:text-black hover:rounded-md hover:py-2 w-22 hover:px-1"
@@ -453,7 +453,7 @@
           </p>
         </div>
       </div>
-      <div class="lg:hidden">
+      <div class="2xl:hidden xl:hidden lg:block">
         <div class="flex justify-end items-center">
           <p
             class="sm:block hidden text-white font-semibold cursor-pointer bg-green-700 rounded-md px-3 py-2 hover:bg-green-800 w-full text-center"
@@ -490,7 +490,7 @@
 
       <div
         :class="[
-          'lg:hidden fixed inset-y-0 right-0 w-full bg-gray-50 lg:bg-transparent transition-transform duration-300 ease-in-out transform',
+          'lg:block fixed inset-y-0 right-0 w-full bg-gray-50 lg:bg-transparent transition-transform duration-300 ease-in-out transform',
           isNavbarOpen ? 'translate-x-0' : 'translate-x-full',
         ]"
         id="navbar-default"
@@ -964,8 +964,8 @@
     </div>
   </nav>
 </template>
-  
-  <script setup lang="ts">
+
+<script setup lang="ts">
 import logo from "~/assets/images/logo.svg";
 import { ref, onMounted, onBeforeUnmount } from "vue";
 
@@ -978,7 +978,7 @@ const toggleNavbar = () => {
 
 const checkScreenSize = () => {
   const width = window.innerWidth;
-  isMobileOrTablet.value = width < 1024;
+  isMobileOrTablet.value = width < 1280;
 };
 
 onMounted(() => {
@@ -990,5 +990,3 @@ onBeforeUnmount(() => {
   window.removeEventListener("resize", checkScreenSize);
 });
 </script>
-  
-  

@@ -10,7 +10,8 @@
       >
         Support that actually supports you 💙
       </h1>
-      <div class="lg:flex items-center gap-3 pt-8 sm:px-0 px-[6rem] lg:mt-12">
+      <div class="sm:block hidden">
+        <div class="lg:flex items-center gap-3 pt-8 sm:px-0 px-[6rem] lg:mt-12">
         <button
           class="border-[1.5px] border-black font-bold rounded-md sm:w-[14rem] w-44 px-4 py-3 hover:bg-[#001B40] hover:text-white lg::my-0"
         >
@@ -21,6 +22,23 @@
         >
           Help Center
         </button>
+      </div>
+      </div>
+      <div class="sm:hidden">
+        <div class="flex justify-center items-center pt-8">
+        <button
+          class="border-[1.5px] border-black font-bold rounded-md sm:w-[14rem] w-44 px-4 py-3 hover:bg-[#001B40] hover:text-white lg::my-0"
+        >
+          Contact Us
+        </button>
+        </div>
+        <div class="flex justify-center items-center">
+        <button
+          class="border-[1.5px] border-black font-bold rounded-md sm:w-[14rem] w-44 px-4 py-3 hover:bg-[#001B40] hover:text-white lg:my-0 sm:my-4 sm:mt-0 mt-4"
+        >
+          Help Center
+        </button>
+        </div>
       </div>
     </div>
     <img src="~/assets/images/support.png" class="lg:block hidden w-[33rem]" />
@@ -70,7 +88,7 @@
   <div class="sm:hidden">
     <swiper :pagination="true" :modules="modules" class="mySwiper">
       <swiper-slide>
-        <div class="bg-[#0075DD] rounded-md h-[35vh] pt-8 px-8 mx-5">
+        <div class="bg-[#0075DD] rounded-md h-[50vh] pt-8 px-8 mx-5">
           <img src="~/assets/images/smile.svg" />
           <p class="text-white text-2xl font-semibold">
             Help From Start to Finish
@@ -82,7 +100,7 @@
         </div>
       </swiper-slide>
       <swiper-slide>
-        <div class="bg-[#002D79] rounded-md h-[35vh] pt-8 px-8 mx-5">
+        <div class="bg-[#002D79] rounded-md h-[50vh] pt-8 px-8 mx-5">
           <img src="~/assets/images/star1.svg" />
           <p class="text-white text-2xl font-semibold">4.8/5.0 Star Reviews</p>
           <p class="text-white pt-5">
@@ -91,7 +109,7 @@
         </div>
       </swiper-slide>
       <swiper-slide>
-        <div class="bg-[#0075DD] rounded-md h-[35vh] pt-8 px-8 mx-5">
+        <div class="bg-[#0075DD] rounded-md h-[50vh] pt-8 px-8 mx-5">
           <img src="~/assets/images/message.svg" />
           <p class="text-white text-2xl font-semibold">Global Support</p>
           <p class="text-white pt-5">

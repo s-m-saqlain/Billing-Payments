@@ -1,5 +1,5 @@
 <template>
-  <div class="sm:hidden bg-[#0075DD] rounded-md px-5 py-8 h-[40vh] mx-7 mt-4">
+  <div class="sm:hidden bg-[#0075DD] rounded-md px-5 py-8 sm:h-[40vh] mx-7 mt-4">
     <h1 class="text-white font-bold text-3xl">Grow stronger with FreshBooks</h1>
     <p class="text-white font-normal py-8">
       Build an integration, use our API, or reap the rewards of our affiliate

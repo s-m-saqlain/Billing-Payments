@@ -1,7 +1,7 @@
 <template>
-  <div class="relative">
+  <div class="sm:relative">
     <div
-      class="lg:bg-freshbook sm:bg-freshbooktablet bg-freshbookmobile bg-no-repeat bg-cover h-screen mt-[6rem]"
+      class="lg:bg-freshbook sm:bg-freshbooktablet bg-no-repeat bg-cover h-screen mt-[6rem]"
     >
       <h1
         class="font-bold text-6xl pt-[12rem] lg:px-[8rem] sm:px-14 sm:block hidden"
@@ -245,7 +245,7 @@
     <!-- For Mobile -->
     <div class="sm:hidden">
       <section
-        class="absolute inset-0 top-[15rem] py-24 bg-[#002D79] h-[90vh] mx-6 rounded-md"
+        class="sm:absolute inset-0 py-24 bg-[#002D79] h-[200vh] mx-6 rounded-md"
       >
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div class="mb-16">

@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-[#FFF9E8] lg:h-[145vh] sm:h-[230vh] h-[100vh]">
+  <div class="bg-[#FFF9E8] lg:h-[145vh] sm:h-[230vh] h-auto sm:mt-0 mt-12">
     <h1
       class="text-center sm:text-5xl text-3xl lg:pt-[13rem] sm:pt-[35rem] sm:pt-[50rem] pt-14 font-bold"
     >

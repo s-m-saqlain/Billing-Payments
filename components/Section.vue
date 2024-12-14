@@ -1,6 +1,6 @@
 <template>
   <div class="bg-blue-900 bg-section bg-no-repeat">
-    <div class="lg:flex justify-between lg:mt-[5rem] pt-[6rem]">
+    <div class="lg:flex justify-between 2xl:mt-[5rem] xl:mt-[5rem] lg:mt-[2rem] pt-[6rem]">
       <div>
         <p
           class="lg:text-7xl sm:text-7xl text-5xl font-medium text-white lg:px-12 px-6"
